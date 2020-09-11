@@ -27,8 +27,9 @@ def palin(x):
             break
     return fa
 
-a = int(input("Please input your number:"))
-if palin(a):
-    print(a,"is a Palindrome number.")
-else:
-    print(a,"is not a Palindrome number.")
+def main():
+    a = int(input("Please input your number:"))
+    if palin(a):
+        print(a,"is a Palindrome number.")
+    else:
+        print(a,"is not a Palindrome number.")

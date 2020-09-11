@@ -25,8 +25,9 @@ def is_prime(x):
                 break
     return get
 
-u = int(input('Please input your number:'))
-if is_prime(u):
-    print(u,'is a prime number.')
-else:
-    print(u,'is not a prime number.')
+def main():
+    u = int(input('Please input your number:'))
+    if is_prime(u):
+        print(u,'is a prime number.')
+    else:
+        print(u,'is not a prime number.')
